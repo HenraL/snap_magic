@@ -52,12 +52,12 @@ git submodule update --init --recursive
 1. **No Warranty**: These components are provided "as-is" without any warranty of any kind, either expressed or implied
 2. **User Responsibility**: Users are solely responsible for verifying the accuracy and suitability of these components for their specific applications
 3. **Not Production-Ready**: Always verify components against official manufacturer datasheets before use in production designs
-4. **Third-Party Content**: All components are sourced from Snap Magic and are subject to their respective licenses and terms of service
+4. **License Compliance**: Users must independently verify and comply with Snap Magic's licensing terms and any applicable third-party licenses
 5. **Personal Use**: This collection is maintained for personal use and learning purposes
 
 ## License
 
-This repository structure and organization are provided under personal use. Individual component libraries retain their original licenses from Snap Magic and respective manufacturers. Users must comply with:
+The repository structure and organization are maintained for personal use. Individual component libraries retain their original licenses from Snap Magic and respective manufacturers. Users must comply with:
 
 - Snap Magic's Terms of Service
 - Individual component manufacturer licenses
