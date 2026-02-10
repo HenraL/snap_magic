@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-04062020-054677";"";
+"REFERENCE";"894858000";"";
+"TraceParts.PartTitle";"USB";"";
+"TraceParts.InstanceId";"90-04062020-0546772N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"Universal Serial Bus (USB) Shielded I/O Type A Receptacle, Single Upright, Right-Angle, Terminal Length 2.00mm, Without Mylar, Gold (Au) Flash, Tray Package, Lead-Free";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.6";"";

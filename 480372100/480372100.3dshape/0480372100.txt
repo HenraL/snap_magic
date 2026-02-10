@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-08042024-055460";"";
+"REFERENCE";"480372100";"";
+"TraceParts.PartTitle";"USB";"";
+"TraceParts.InstanceId";"90-08042024-055460545FCGX3S62DKQNX5STDADHE";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"Universal Serial Bus (USB) Shielded I/O Plug, Type A, Right-Angle, Surface Mount, Straight Tab 4.80mm, 0.76µm Gold (Au) Plating, PCB Thickness 1.60mm, Tape on Reel Package, Lead-Free";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.5";"";

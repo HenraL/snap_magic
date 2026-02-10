@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-09042024-035634";"";
+"REFERENCE";"1050570001";"";
+"TraceParts.PartTitle";"USB";"";
+"TraceParts.InstanceId";"90-09042024-0356342N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"Universal Serial Bus (USB) Shielded I/O Type A Receptacle, Vertical, 0.76µm Gold (Au) Plating, 2.80mm Tail Length, with 3 Beveled Solder Tabs, Tray, Lead-Free";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.3";"";
