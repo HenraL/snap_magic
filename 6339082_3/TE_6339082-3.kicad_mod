@@ -131,4 +131,9 @@
   (fp_line (start -32.955 -11.201) (end -32.955 -12.42) (layer F.SilkS) (width 0.127))
   (fp_line (start 32.955 3.147) (end 32.955 -8.099) (layer F.SilkS) (width 0.127))
   (fp_line (start 32.955 -11.201) (end 32.955 -12.42) (layer F.SilkS) (width 0.127))
+  (model "6339082-3.3dshapes/6339082-3.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

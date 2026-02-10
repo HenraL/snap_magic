@@ -37,4 +37,9 @@
   (fp_line (start -8.55 1.95) (end -8.55 -1.95) (layer F.CrtYd) (width 0.05))
   (fp_line (start -8.55 -1.95) (end -7.5 -1.95) (layer F.CrtYd) (width 0.05))
   (fp_line (start -7.5 -1.95) (end -7.5 -5.0) (layer F.CrtYd) (width 0.05))
+  (model "USB-A1VSB6.3dshape/USB-A1VSB6.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

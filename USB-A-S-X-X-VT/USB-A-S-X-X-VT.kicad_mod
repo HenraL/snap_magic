@@ -29,4 +29,9 @@
   (fp_line (start -5.7 -5.43) (end 5.7 -5.43) (layer F.SilkS) (width 0.127))
   (fp_arc (start 5.7 -3.38) (end 7.75 -3.38) (angle -90.0) (layer F.SilkS) (width 0.127))
   (fp_line (start 7.75 -3.38) (end 7.75 -1.954) (layer F.SilkS) (width 0.127))
+  (model "USB-A-S-X-X-VT.3dshape/USB-A-S-X-X-VT.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

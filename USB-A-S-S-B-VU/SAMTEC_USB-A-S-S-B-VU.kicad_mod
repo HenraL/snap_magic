@@ -31,4 +31,9 @@
   (fp_line (start 5.085 -4.305) (end 5.085 4.305) (layer F.CrtYd) (width 0.05))
   (fp_line (start 5.085 4.305) (end -15.33 4.305) (layer F.CrtYd) (width 0.05))
   (fp_line (start -15.33 4.305) (end -15.33 -4.305) (layer F.CrtYd) (width 0.05))
+  (model "USB-A-S-S-B-VU.3dshape/USB-A-S-S-B-VU.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

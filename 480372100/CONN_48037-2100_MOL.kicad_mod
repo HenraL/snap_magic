@@ -40,4 +40,9 @@
   (fp_arc (start 3.5052 -11.9126) (end 3.8862 -11.9126) (angle -180.0) (layer F.Fab) (width 0.508))
   (fp_arc (start 6.7564 -10.0076) (end 6.3754 -10.0076) (angle -180.0) (layer B.SilkS) (width 0.508))
   (fp_arc (start 6.7564 -10.0076) (end 7.1374 -10.0076) (angle -180.0) (layer B.SilkS) (width 0.508))
+  (model "480372100.3dshape/480372100.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

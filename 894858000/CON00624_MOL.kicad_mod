@@ -29,4 +29,9 @@
   (fp_line (start 1.2954 10.4902) (end 2.8956 10.4902) (layer Edge.Cuts) (width 0.01))
   (fp_line (start -1.0414 4.7752) (end -0.1524 4.7752) (layer Edge.Cuts) (width 0.01))
   (fp_line (start 4.3434 4.7752) (end 5.2578 4.7752) (layer Edge.Cuts) (width 0.01))
+  (model "894858000.3dshape/894858000.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

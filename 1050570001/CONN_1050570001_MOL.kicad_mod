@@ -40,4 +40,9 @@
   (fp_text user "*" (at -3.1242 0.635) (layer F.Fab)
     (effects (font (size 1.0 1.0) (thickness 0.15)))
   )
+  (model "1050570001.3dshape/1050570001.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

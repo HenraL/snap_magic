@@ -31,4 +31,9 @@
   (fp_line (start 15.55 4.275) (end 15.55 -4.275) (layer F.CrtYd) (width 0.05))
   (fp_line (start 15.55 -4.275) (end -4.875 -4.275) (layer F.CrtYd) (width 0.05))
   (fp_circle (center 5.28 -4.88) (end 5.38 -4.88) (layer F.SilkS) (width 0.2))
+  (model "A_USB_2_A_E.3dshape/A_USB_2_A_E.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
