@@ -1,0 +1,298 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ESP8266DEVKITC02DF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -17.78 21.082 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ESP8266DEVKITC02DF" (id 1) (at -17.78 -22.86 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ESP8266DEVKITC02DF:MODULE_ESP8266DEVKITC02DF" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Espressif Systems" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "10.1mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/ESP8266DEVKITC02DF/Espressif+Systems/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "2018.09" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP8266DEVKITC02DF/Espressif+Systems/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "ESP8266DEVKITC02DF" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9755257&manufacturer=Espressif Systems&part_name=ESP8266DEVKITC02DF&search_term=None" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            ESP8266, ESP-WROOM-02D - 802.11 b/g/n (WiFi/WLAN/Wi-Fi 4) RF (Transceiver) 2.4GHz Evaluation Board\n                        \n" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Espressif Systems" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ESP8266DEVKITC02DF_0_0"
+      (rectangle (start -17.78 -20.32) (end 17.78 20.32)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at -22.86 17.78 0) (length 5.08)
+        (name "GND_J2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 15.24 0) (length 5.08)
+        (name "VDD33_J2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 12.7 0) (length 5.08)
+        (name "VDD33_J2_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -22.86 10.16 0) (length 5.08)
+        (name "EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 7.62 0) (length 5.08)
+        (name "GND_J2_5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 5.08 0) (length 5.08)
+        (name "IO14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 2.54 0) (length 5.08)
+        (name "IO12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 0.0 0) (length 5.08)
+        (name "IO13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -2.54 0) (length 5.08)
+        (name "IO15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -5.08 0) (length 5.08)
+        (name "IO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -7.62 0) (length 5.08)
+        (name "IO0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 -10.16 0) (length 5.08)
+        (name "GND_J2_12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 -12.7 0) (length 5.08)
+        (name "EXT_5V"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 -15.24 0) (length 5.08)
+        (name "GND_J2_14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -22.86 -17.78 0) (length 5.08)
+        (name "GND_J2_15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 17.78 180.0) (length 5.08)
+        (name "GND_J3_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 15.24 180.0) (length 5.08)
+        (name "IO16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 12.7 180.0) (length 5.08)
+        (name "GND_J3_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 10.16 180.0) (length 5.08)
+        (name "U0TXD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 7.62 180.0) (length 5.08)
+        (name "U0RXD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 5.08 180.0) (length 5.08)
+        (name "GND_J3_6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 2.54 180.0) (length 5.08)
+        (name "IO4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 22.86 0.0 180.0) (length 5.08)
+        (name "RST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -2.54 180.0) (length 5.08)
+        (name "IO5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -5.08 180.0) (length 5.08)
+        (name "TOUT_EX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -7.62 180.0) (length 5.08)
+        (name "GND_J3_11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -10.16 180.0) (length 5.08)
+        (name "GND_J3_12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -12.7 180.0) (length 5.08)
+        (name "GND_J3_13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -15.24 180.0) (length 5.08)
+        (name "GND_J3_14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -17.78 180.0) (length 5.08)
+        (name "GND_J3_15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
