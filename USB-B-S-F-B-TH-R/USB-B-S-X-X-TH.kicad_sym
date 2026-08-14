@@ -7,7 +7,7 @@
     (property "Value" "USB-B-S-X-X-TH" (id 1) (at -5.08 -12.7 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "USB-B-S-X-X-TH:SAMTEC_USB-B-S-X-X-TH" (id 2) (at 0 0 0)
+    (property "Footprint" "USB-B-S-F-B-TH-R:SAMTEC_USB-B-S-X-X-TH" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "Samtec" (id 4) (at 0 0 0)

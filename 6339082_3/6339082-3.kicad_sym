@@ -7,7 +7,7 @@
     (property "Value" "6339082-3" (id 1) (at -7.62 -27.94 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "6339082-3:TE_6339082-3" (id 2) (at 0 0 0)
+    (property "Footprint" "6339082_3:TE_6339082-3" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Comment" "6339082-3" (id 4) (at 0 0 0)

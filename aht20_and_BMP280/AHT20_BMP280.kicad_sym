@@ -7,7 +7,7 @@
     (property "Value" "AHT20_BMP280" (id 1) (at 0 0.0 0)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
-    (property "Footprint" "AHT20_BMP280:AHT20_BMP280" (id 2) (at 0 0 0)
+    (property "Footprint" "aht20_and_BMP280:AHT20_BMP280" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "Estardyn" (id 4) (at 0 0 0)

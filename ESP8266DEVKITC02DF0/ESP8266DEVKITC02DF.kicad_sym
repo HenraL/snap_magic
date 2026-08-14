@@ -7,7 +7,7 @@
     (property "Value" "ESP8266DEVKITC02DF" (id 1) (at -17.78 -22.86 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "ESP8266DEVKITC02DF:MODULE_ESP8266DEVKITC02DF" (id 2) (at 0 0 0)
+    (property "Footprint" "ESP8266DEVKITC02DF0:ESP8266DEVKITC02DF" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "Espressif Systems" (id 4) (at 0 0 0)
