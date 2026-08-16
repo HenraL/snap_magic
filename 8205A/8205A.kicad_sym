@@ -219,7 +219,7 @@
         (pts (xy -5.08 5.08) (xy -5.08 2.54)) (stroke (width 0.1524))
       )
       (pin passive line (at -5.08 -5.08 90.0) (length 2.54)
-        (name "~"
+        (name "S1"
           (effects (font (size 1.016 1.016)))
         )
         (number "1"
@@ -227,23 +227,23 @@
         )
       )
       (pin passive line (at -10.16 -2.54 0) (length 2.54)
-        (name "~"
+        (name "D"
           (effects (font (size 1.016 1.016)))
         )
         (number "6"
           (effects (font (size 1.016 1.016)))
         )
       )
-      (pin passive line (at 0.0 7.62 270.0) (length 2.54)
-        (name "~"
+      (pin input line (at 0.0 7.62 270.0) (length 2.54)
+        (name "G1"
           (effects (font (size 1.016 1.016)))
         )
         (number "2"
           (effects (font (size 1.016 1.016)))
         )
       )
-      (pin passive line (at 0.0 7.62 270.0) (length 2.54) hide
-        (name "~"
+      (pin input line (at 2.54 7.62 270.0) (length 2.54)
+        (name "G2"
           (effects (font (size 1.016 1.016)))
         )
         (number "5"
@@ -251,7 +251,7 @@
         )
       )
       (pin passive line (at 5.08 -5.08 90.0) (length 2.54)
-        (name "~"
+        (name "S2"
           (effects (font (size 1.016 1.016)))
         )
         (number "3"
@@ -259,7 +259,7 @@
         )
       )
       (pin passive line (at 0.0 -2.54 0) (length 2.54)
-        (name "~"
+        (name "D"
           (effects (font (size 1.016 1.016)))
         )
         (number "4"
