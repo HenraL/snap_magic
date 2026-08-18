@@ -53,8 +53,6 @@ MODEL_BLOCK = (
 
 def _log(notes, severity, comp, msg):
     notes.append((severity, comp, msg))
-    if severity != "note":
-        print("  [%s] %s: %s" % (severity.upper(), comp, msg))
 
 
 def find_shapes_dir(comp):
@@ -147,9 +145,14 @@ def normalize_component(comp, check_only):
     comp_base = os.path.basename(comp)
     notes = []
     errors = []
+    warnings = []
 
     def add(severity, msg):
-        list(map(_log, [notes], [severity], [comp_base], [msg]))
+        _log(notes, severity, comp_base, msg)
+        if severity == "error":
+            errors.append((severity, comp_base, msg))
+        elif severity == "warning":
+            warnings.append((severity, comp_base, msg))
 
     if comp_base != comp_base.strip():
         add("fix", "folder name has trailing space")
@@ -263,9 +266,9 @@ def normalize_component(comp, check_only):
     if shapes_dir is None:
         add("note", "no 3D model available (download without step, or 3D not provided)")
 
-    warnings = [n for n in notes if n[0] == "warning"]
+    fixes = [n for n in notes if n[0] == "fix"]
     notes = [n for n in notes if n[0] == "note"]
-    return errors, warnings, notes
+    return errors, warnings, fixes, notes
 
 
 def main():
@@ -287,7 +290,9 @@ def main():
             print("SKIP: not a directory: %s" % comp)
             continue
         print("== %s" % os.path.basename(comp))
-        errors, warnings, notes = normalize_component(comp, check_only)
+        errors, warnings, fixes, notes = normalize_component(comp, check_only)
+        for _, _, msg in fixes:
+            print("  [FIX] %s: %s" % (os.path.basename(comp), msg))
         for _, _, msg in warnings:
             print("  [WARNING] %s: %s" % (os.path.basename(comp), msg))
         for _, _, msg in notes:
