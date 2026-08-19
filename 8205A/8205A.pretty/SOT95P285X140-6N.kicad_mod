@@ -1,5 +1,5 @@
 
-(footprint SOT95P285X140-6N (layer F.Cu) (tedit 6A810F6E)
+(footprint SOT95P285X140-6N (layer F.Cu) (tedit 6A84F868)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 1.065 -3.385 0) (layer F.SilkS)
@@ -28,6 +28,6 @@
   (model "../8205A.3dshape/8205A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 0 0))
   )
 )
